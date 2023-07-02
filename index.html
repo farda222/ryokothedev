@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth overflow-x-hidden">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ryoko</title>
+    <link rel="shortcut icon" type="x-icon" href="Asset/logo.png" />
+    <link rel="stylesheet" href="output.css" />
+    <style>
+      .custom-cursor {
+        width: 24px;
+        height: 24px;
+        border: 3px solid #fff;
+        border-radius: 50%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        pointer-events: none;
+        z-index: 9999;
+      }
+      a:hover,
+      button:hover {
+        cursor: none;
+      }
+
+      a:hover .custom-cursor,
+      button:hover .custom-cursor {
+        border: 10px solid #ffff; /* Ganti dengan tampilan cursor yang diinginkan saat menghover */
+      }
+    </style>
+  </head>
+  <body class="bg-black cursor-none overflow-x-hidden">
+    <nav class="flex items-center justify-between bg-bg py-4 px-8">
+      <div class="flex items-center">
+        <img src="Asset/logo.png" alt="Logo" class="h-8 w-8 md:h-12 md:w-12 lg:-mt-2" />
+      </div>
+      <div class="flex justify-center md:justify-start lg:justify-center lg:items-center lg:ml-40 sm:justify-start">
+        <ul class="flex space-x-10 md:space-x-20 lg:space-x-24 sm:space-x-20">
+          <li><a href="#" class="text-white hover:text-gray-700 md:text-lg">Home</a></li>
+          <li><a href="#" class="text-white hover:text-gray-700 md:text-lg">About</a></li>
+          <li><a href="#" class="text-white hover:text-gray-700 md:text-lg">Project</a></li>
+        </ul>
+      </div>
+      <div class="hidden md:block sm:block">
+        <a class="bg-neutral-800 hover:bg-white text-white font-bold py-2 px-4 rounded active:bg-white active:text-black transition-all md:px-8 md:py-4 hover:text-black">Get in Touch</a>
+      </div>
+    </nav>
+    <img class="container flex justify-end ml-[14vh] mt-20 w-[100%] sm:-mt-5 md:ml-[18vh] lg:w-[60%] lg:container lg:justify-center lg:items-center lg:align-middle lg:flex lg:mx-60 lg:mt-2 2xl:mx-96 sm:ml-[20vh]" src="Asset/car.png" />
+    <div class="container">
+      <h1
+        class="bg-gradient-to-r from-white to-neutral-700 text-transparent bg-clip-text text-4xl w-56 flex-col mx-14 z-0 text-start -mt-72 sm:-mt-[24rem] sm:text-4xl sm:md:w-[22rem] sm:mx-20 md:-mt-[29rem] md:text-5xl md:w-[22rem] md:mx-16 lg:mx-56 lg:-mt-[28rem] 2xl:-mt-[38rem] 2xl:mx-[26rem]">
+        Hello,im Arif Im a FrontEnd Student
+      </h1>
+      <h1
+        class="bg-gradient-to-l from-white to-neutral-700 text-transparent bg-clip-text text-4xl w-[12rem] mx-14 mt-10 justify-start flex-col text-start sm:text-4xl sm:mx-20 md:text-5xl md:w-[14rem] md:mx-16 lg:text-end lg:mx-[49rem] lg:mt-20 2xl:mt-48 2xl:mx-[70rem]">
+        Best Website Developer
+      </h1>
+    </div>
+    <div class="container mx-auto justify-center align-middle items-center flex mt-14">
+      <a
+        href="#"
+        class="bg-neutral-800 text-white py-4 px-20 rounded-bl-xl rounded-tr-xl active:bg-white active:text-black border border-neutral-700 transition-all active:border-black hover:px-14 hover:rounded-full hover:border-neutral-50 hover:-mt-2 md:py-6 md:px-24 md:text-xl lg:-mt-8">
+        Latest Projects
+      </a>
+    </div>
+    <div class="border border-neutral-600 mx-11 mt-14 2xl:mb-32"></div>
+    <div class="container justify-center align-middle flex mb-20 sm:mx-1 md:mx-4 2xl:mx-44">
+      <h1 class="justify-center align-middle flex bg-gradient-to-r from-white to-neutral-700 text-transparent bg-clip-text text-3xl w-80 text-center mt-14 sm:w-[40rem] sm:text-4xl md:w-[45rem] md:text-5xl lg:w-[54rem]">
+        Collaborate with brands and agencies to create impactful results.
+      </h1>
+    </div>
+    <div class="container flex justify-center md:mx-4 lg:mx-1 2xl:mx-44">
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-8 2xl:gap-12">
+        <div class="w-[17.56306rem] h-[15.125rem] bg-neutral-900 rounded-md hover:bg-neutral-700" data-tilt>
+          <div class="p-4 my-20">
+            <img
+              class="mb-3 w-10 h-10"
+              src="data:image/png;base64,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" />
+            <h1 class="mb-2 text-white text-xl">Web Developer</h1>
+            <p class="text-white text-sm opacity-30">Im ready to develop any website using html css js and tailwind</p>
+          </div>
+        </div>
+        <div class="w-[17.56306rem] h-[15.125rem] bg-neutral-900 rounded-md hover:bg-neutral-700" data-tilt>
+          <div class="p-4 my-20">
+            <img
+              class="mb-3 w-10 h-10"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAZlJREFUSEu1VVtOwzAQnL0JPQn0JvQXvvmmHAJ+aU8CnITeZNBEXmu9ceIGqZYixYozszP7sOHGy26MjyEByUcA9wAeQjAXAN8AfgBczEz77lokICnA1wTcAxHRYYmkS0BSwMeCpujeFLFASN4B0CNVUqd3raOZ6VyzZgQJXJGd1vJUzjvRjKQhKLZ8FcC9mUk+SL4DeALwYWbPnb0UO0n9T/9mgt8iuYmEJF2FmVnelyDcVlm5r+f9JUSvqthFW0YKAoYHuPOkVwXB+yn6DHpNvwSMk5kdGotIynuV5uRhz4YRSXCh2hQVuM9O0CR2BB5smnCUq6xg5t8INHT5WR1dzgun5jEqaAjWcpDKuRdHrcJI8Flq2ZPclGawQJ2rYLTUJ3qUO+/wmuBskQ4p0ZKqOn6JzRUIvN4boCU7r2q01BNO0J09mag3KmSV5HbnUEmszmxXkFpeW03Ucx7F3iNeimvVtjaufXgpiV6Gyo/UTbnKI6VHtHbhiEB++7zP///PoowSbjZ96pbiZotGHbzl+/DS3wLWO/sHp0vxGc8TaX4AAAAASUVORK5CYII=" />
+            <h1 class="mb-2 text-white text-xl">UI/UX Designer</h1>
+            <p class="text-white text-sm opacity-30">Im ready to for designing a modern website using figma.</p>
+          </div>
+        </div>
+        <div class="w-[17.56306rem] h-[15.125rem] bg-neutral-900 rounded-md hover:bg-neutral-700" data-tilt>
+          <div class="p-4 my-20">
+            <img
+              class="mb-3 w-10 h-10"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAWhJREFUSEu1VgFuwkAMs38yXrLxksFLxl4yeMn4yfiJkatLdU2vtGrXkxCg5uIkdgzEzoc758cIQNIbgE8AFwAPAFeS32sLaQH8AvhICR8kD2tABgCSTgB+SqJIaEB3dSR5r0EkuZCv8tyPRt1mAAd7NA48+4YkAxr4TPIaACW5wfMZFJIBXOlfmb0BzEF0cCDp792R5DjHG9QcBW93kseIa3EQFdeVDS4VAPmdZJejiKMrruZrTkW+e2mpSFKIwSO9FS48yn68XQFTypA0qDDHreIgKeQlQDWW4Mj8mOCep00dNMgeyXgzgKSQdU92HuUWDvrkrSWclGnVekuG1v17WTx/ju3tlrJ1mh3UrU9dLEs4InV2RJW+c6zV4Zf96JbVsriD0D+AWbN70V3/aMpNa7MLMpsbPQeSAWy/XhyPIpvdwE3nEjdVVAzLZpd/cEZmtwqgWn9br40rZPh/P5lLK1sat/u/iicmsbQZnoL1yAAAAABJRU5ErkJggg==" />
+            <h1 class="mb-2 text-white text-xl">Deployment</h1>
+            <p class="text-white text-sm opacity-30">I will deploy any website that i build or not</p>
+          </div>
+        </div>
+        <div class="w-[17.56306rem] h-[15.125rem] bg-neutral-900 rounded-md hover:bg-neutral-700" data-tilt>
+          <div class="p-4 my-20">
+            <img
+              class="mb-3 w-10 h-10"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAUtJREFUSEvFVe1tw1AI5DZpJmkzSeNJkkzSdJJ6k2QTorNAws/g5z9PfZIV5X1wcMABGbww2L6kAKp6FZFfAC86YP+/RIQf9/jNAO52/sEzAI/W4Q2AGbuZERogGA1ki0A06uBTC5IB0NhfY3QWkTuAWVUXb0Xk234d+AXg1I0ghPy0yw8AU+Z+iFYApHRXObiIyI/xfN4rBFVltIzo5jmJ9ysAek8qNpy2YKpK4wRh0jfO9ABOXklVFJYTOtTPgarqKjzjtd33O8579Y73VhEMB3DPHKiqjCQPS+TZ/SoH5YOiXI8BDKdoOEDIgfdBt0yt849RFAC8O8/Un04ne9enkvJvUhEVNdUYo4Z6xQjSLt40WqQiaAy3qfucDU4XHeCcoA5xlVTujkzTmXY2RD8ITEEs89SdyWHAfAaPVyNzrwi6AHuPj5wNB3gDZe/GGWVymHEAAAAASUVORK5CYII=" />
+            <h1 class="mb-2 text-white text-xl">Bug Fixer</h1>
+            <p class="text-white text-sm opacity-30">I also as services at debugging for any website for but just for my client</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container justify-center align-middle flex sm:mx-0 md:mx-4 lg:mx-0 2xl:mx-44 2xl:mt-40">
+      <h1 class="bg-gradient-to-r from-white to-neutral-700 text-transparent bg-clip-text text-3xl text-center mt-24 sm:text-4xl sm:w-[35rem] md:text-5xl md:w-[35rem] lg:w-[50rem]">Let’s discusses About Our New Or Next Projects</h1>
+    </div>
+    <div class="container mx-auto justify-center align-middle items-center flex mt-24 2xl:mx-44">
+      <button class="bg-neutral-800 active:bg-white active:text-black text-white py-5 px-7 rounded-3xl transition-all flex active:py-5 active:px-6 md:px-14 md:py-7 md:text-lg">
+        Get in Touch
+        <img
+          class="ml-[1vh] md:mt-0.5"
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAORJREFUSEvtldENwjAMRN9tApvAJNBJgElgE8oksImRoxKF0NA2lB+EpX619vOdE1d8OfTl+vwQwMxWwBFYfGjbDWgktV4nWmRmZ8Ahc8RN0jIHWFd5D/hTEydgGwpLoflUQQD4iwq7oi1mFusUAf7CzHwWmxFqTpKaJOf6VgHg3XjSoUsqDf9pmJ1qn2OIokWJ8fsEkqvJu35ROgbgrD413l04gnnX6akYC3jkRDVj5zMVENUAFyB6XTrLNYBJ9+IPGLSrz6I5l10raZ2vCr+xuxk2av+6HtRc+cEP/TIrHRhMuwMSH4MZVFyRDAAAAABJRU5ErkJggg==" />
+      </button>
+    </div>
+    <div class="custom-cursor hidden md:block lg:block 2xl:block"></div>
+    <footer class="bg-neutral-700 text-white py-2 mt-48 md:py-4">
+      <div class="container mx-auto flex flex-col items-center md:flex-row md:justify-between px-5">
+        <div class="mt-3 md:-mt-0">
+          <span>&copy; 2023 Your Company. All rights reserved.</span>
+        </div>
+        <div class="flex space-x-4">
+          <a href="#" class="text-white hover:text-gray-400">
+            <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20">
+              <img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAXJJREFUSEu1VYltwzAMPG7STtJmkjaTNJ2kySRNJmk2YXGGKJy+yA5gAobhROTxjo8MO5vtHB9TAHd/B/AGgG8+9/RcAdzMjO+hDQHc/QXATwr6KAYBD2bGd2NdAHf/AnDaIB+Dn83su/ZpANz9M2W+IX4+eqpBCoAky186Tm2PAD6ETchA+WhkeQNAxlGfo9alBvgVzUmZACCwatz5VknvZvYanDJAR5oMMNPK3dkMlDaMRV+66xFAPrQCgJKFtIt0UQsF0CwKmjOAJKPKezWzQ82AGUTx8oE1wRNAN0FloADPMFB/mNkSWwGU4jMALmxzgyhAPb1bumjoqwAcFLJQayZT/0yDqYM4blPpBBaaA8YNykmN7ckJzQvN3VVSxS0aZLQqlg0pK4BOy1SHdYaryb4osjiGnjN5ehuXLM+ayGxdhzyX2rGz0pvgXQbCRC+cho0AMIlig04ZdDqFg1PcWKmDmt/ryZ/eyWtXxejc7gD/L3LHGbzDm/0AAAAASUVORK5CYII=" />
+            </svg>
+          </a>
+          <a href="#" class="text-white hover:text-gray-400">
+            <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20">
+              <img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAOhJREFUSEvtVIENwjAMsz+BT+ATdgl8wj5hn7BPglw1FZvK1K4bEhKVqm1aE9eOE2LnxZ3z47sAZvYAcGpkNZI8eo4JAzOzxuQhnGTKuwQwABgBXGpBSwB6kp0Sr5GtBGAgeY4A91oWJQCSxiW67SGRALS1DnEL0L/19DP6P3FeCYP3GgSJPMjMQjKSDqg6XQEkpk0AObnMTCyeyfsFNv3IYOasjmQ/d1sTgyiROl4ra+dWADWe6jIHSHb+A2wikXeydJbvZcPglvjujZU7VzxNaydEOr9U5OrBlrlFGpSh41dfszDw9wFeYv3NGZpLGlwAAAAASUVORK5CYII=" />
+            </svg>
+          </a>
+          <a href="#" class="text-white hover:text-gray-400">
+            <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20">
+              <img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAYlJREFUSEvFVU1Kw2AUnFm7dq97UbyA2mMIgnYrKHgC7Q0Udd0KgnsvYL2BeAHryoV7F25GJr7050tSmoTSD0pokvdm5v1MiCUfLjk/VgMgaQPAMYCD+FUJHcWDIYAeyfz/+P2CAkknAPoNSufkA5K96dgZgGD+0SB5HmKQLkkryk4KYOZWUOd0AOwDuIogq+hWAZi96192BgDM8DMSmsiI5GZS1iFJg5YqUEnmsWxJ65ls8jvK+RLvT5PKQOsAmM0vgKNgbhKvAB4BfAEo9IzkuPRpD1IFWT0l3QM4TdTdkTyTZBUe58lo1gBws56D8VYC8E5yR9LlVIP/614DwJNxC8AstxOAN5K7bQGyiZB0A+A8AbgmeSGpMNp1FGQTBOAHwCGAvQBxk58ArIW6Gew6AA4sbKdvSnJj8zFdGKAwERFpEK9/bmbzTHDuojWxinQ351qFN7KN2RmsU2l2Udumdu1wO6k9a7J0Jd7jBlqJF8jXmS2t8ConfVjog1MG2Obear7JbRinsX8MPqIZScB6mgAAAABJRU5ErkJggg==" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </footer>
+    <script src="main.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const cursor = document.querySelector(".custom-cursor");
+
+        document.body.addEventListener("mousemove", function (e) {
+          const x = e.clientX;
+          const y = e.clientY;
+
+          cursor.style.transform = `translate(${x}px, ${y}px)`;
+        });
+      });
+    </script>
+  </body>
+</html>
